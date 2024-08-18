@@ -1,0 +1,11 @@
+The letter is stored within a varialble 'letter'.
+
+a switch case statement then used to comapare variable 'letter' with each letter in the word.
+
+if letter is correct then labels on mainform called lblLetter1-7 replaced with variable 'letter'.
+if letter is incorrect then label on mainform called lblStrike1-10 replaced with variable letter
+
+I'm not sure if I should write a case for each incorrect letter because the code will become quite extensive as there has to be one for every incorrect letter including every correct letter which would be 26 cases.
+I tried only creating cases for the correct letters and assigning incorrect letter labels in the default section of the Use Case statement but dont know how to switch: 
+lblStrike1 = letter to lblStrike2 = letter after the second key has been pressed, which is why I'm considering creating a case for each incorrect letter with 
+
